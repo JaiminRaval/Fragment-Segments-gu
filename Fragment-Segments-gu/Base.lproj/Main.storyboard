@@ -191,14 +191,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="G0L-l1-YS2">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="G0L-l1-YS2">
                                 <rect key="frame" x="14" y="203" width="365" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="RSlider:" destination="1hg-Np-U0h" eventType="valueChanged" id="R4m-zv-iie"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="hYh-Bh-bGP">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="hYh-Bh-bGP">
                                 <rect key="frame" x="14" y="374" width="365" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -212,11 +212,6 @@
                                     <action selector="ASlider:" destination="1hg-Np-U0h" eventType="valueChanged" id="yXY-ZA-HAo"/>
                                 </connections>
                             </slider>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gm2-RV-8nr">
-                                <rect key="frame" x="76" y="656" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="9H3-Fx-WDu">
                                 <rect key="frame" x="14" y="289" width="365" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -252,6 +247,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gm2-RV-8nr">
+                                <rect key="frame" x="56" y="523" width="280" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rsl-ao-FQ8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
