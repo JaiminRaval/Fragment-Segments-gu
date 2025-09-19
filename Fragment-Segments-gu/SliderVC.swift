@@ -31,57 +31,57 @@ class SliderVC: UIViewController {
     }
     
     @IBAction func RSlider(_ sender: UISlider) {
-        var r = CGFloat(rVal.value)
-        var g = CGFloat(gVal.value)
-        var b = CGFloat(bVal.value)
-        var op = CGFloat(aVal.value)
-        changeColor(r: r, g: g, b: b, op: op)
+//        var r = CGFloat(rVal.value)
+//        var g = CGFloat(gVal.value)
+//        var b = CGFloat(bVal.value)
+//        var op = CGFloat(aVal.value)
+//        changeColor(r: r, g: g, b: b, op: op)
         
-//        ColorView.backgroundColor =
-//        UIColor(
-//            red: CGFloat(rVal.value),
-//            green: CGFloat(gVal.value),
-//            blue: CGFloat(bVal.value),
-//            alpha: CGFloat(aVal.value))
+        ColorView.backgroundColor =
+        UIColor(
+            red: CGFloat(rVal.value),
+            green: CGFloat(gVal.value) ,
+            blue: CGFloat(bVal.value),
+            alpha: CGFloat(aVal.value))
     }
     @IBAction func GSlider(_ sender: UISlider) {
-        var r = CGFloat(rVal.value)
-        var g = CGFloat(gVal.value)
-        var b = CGFloat(bVal.value)
-        var op = CGFloat(aVal.value)
-        changeColor(r: r, g: g, b: b, op: op)
-//        ColorView.backgroundColor =
-//        UIColor(
-//            red: CGFloat(rVal.value),
-//            green: CGFloat(gVal.value),
-//            blue: CGFloat(bVal.value),
-//            alpha: CGFloat(aVal.value))
+//        var r = CGFloat(rVal.value)
+//        var g = CGFloat(gVal.value)
+//        var b = CGFloat(bVal.value)
+//        var op = CGFloat(aVal.value)
+//        changeColor(r: r, g: g, b: b, op: op)
+        ColorView.backgroundColor =
+        UIColor(
+            red: CGFloat(rVal.value),
+            green: CGFloat(gVal.value) ,
+            blue: CGFloat(bVal.value),
+            alpha: CGFloat(aVal.value))
     }
     @IBAction func BSlider(_ sender: UISlider) {
-        var r = CGFloat(rVal.value)
-        var g = CGFloat(gVal.value)
-        var b = CGFloat(bVal.value)
-        var op = CGFloat(aVal.value)
-        changeColor(r: r, g: g, b: b, op: op)
-//        ColorView.backgroundColor =
-//        UIColor(
-//            red: CGFloat(rVal.value),
-//            green: CGFloat(gVal.value),
-//            blue: CGFloat(bVal.value),
-//            alpha: CGFloat(aVal.value))
+//        var r = CGFloat(rVal.value)
+//        var g = CGFloat(gVal.value)
+//        var b = CGFloat(bVal.value)
+//        var op = CGFloat(aVal.value)
+//        changeColor(r: r, g: g, b: b, op: op)
+        ColorView.backgroundColor =
+        UIColor(
+            red: CGFloat(rVal.value),
+            green: CGFloat(gVal.value) ,
+            blue: CGFloat(bVal.value),
+            alpha: CGFloat(aVal.value))
     }
     @IBAction func ASlider(_ sender: UISlider) {
-        var r = CGFloat(rVal.value)
-        var g = CGFloat(gVal.value)
-        var b = CGFloat(bVal.value)
-        var op = CGFloat(aVal.value)
-        changeColor(r: r, g: g, b: b, op: op)
-//        ColorView.backgroundColor =
-//        UIColor(
-//            red: CGFloat(rVal.value),
-//            green: CGFloat(gVal.value),
-//            blue: CGFloat(bVal.value),
-//            alpha: CGFloat(aVal.value))
+//        var r = CGFloat(rVal.value)
+//        var g = CGFloat(gVal.value)
+//        var b = CGFloat(bVal.value)
+//        var op = CGFloat(aVal.value)
+//        changeColor(r: r, g: g, b: b, op: op)
+        ColorView.backgroundColor =
+        UIColor(
+            red: CGFloat(rVal.value),
+            green: CGFloat(gVal.value) ,
+            blue: CGFloat(bVal.value),
+            alpha: CGFloat(aVal.value))
     }
 
 
